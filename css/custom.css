@@ -1,0 +1,436 @@
+/*
+main colors
+#08526D  blue
+#41B3A3  green
+#ed1d24   red
+#F0F5F7 background
+*/
+/* Start top-header */
+/*Start Global */
+body{
+    height: 1000px;
+ }
+.color1
+{
+    background-color: #41B3A3;
+}
+.color2
+{
+    background-color: #41B3A3;
+}
+.color3
+{
+    background-color: #41B3A3;
+}
+.color4
+{
+    background-color: #41B3A3;
+}
+
+/*  fdfds*/
+a
+{
+    text-decoration: none;
+    color: #DDD;
+}
+a:hover
+{
+    color: #41B3A3;
+}
+/*End Global */
+.top-header{
+    background-color: #08526D;
+    padding-top:5px;
+}
+.top-header .contact ul 
+{
+    overflow: hidden;
+}
+.top-header .contact ul li
+{
+    margin-right: 15px;
+    float: left;
+}
+
+.top-header .contact ul li span
+{
+    margin-left: 2px;
+}
+.top-header .header-link
+{
+    overflow: hidden;
+}
+.top-header .header-link .projects-link{
+    float: right;
+    background-color: #08526D;
+    border: 2px solid #41B3A3;
+    color: #DDD;
+    text-transform: uppercase;
+}
+.top-header .header-link .projects-link:hover ,
+.top-header .header-link .projects-link:active
+{
+    background-color: #41B3A3;
+}
+/* End top-header */
+
+/* Start main-header */
+.main-header
+{
+    background-color: #FFF;
+}
+.main-header .navbar-brand h1
+{
+    color:#08526D;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.main-header .navbar-brand h1 span
+{
+    color:#ed1d24;
+    font-weight: normal;
+}
+
+.main-header .navbar-collapse .navbar-nav li :hover,
+.main-header .navbar-collapse .navbar-nav li :active,
+.main-header .navbar-collapse .navbar-nav  li a.active
+{
+    color: #ed1d24;
+}
+
+.main-header .navbar-collapse .navbar-nav  li a
+{
+    color: #08526D;
+    padding: 6px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/* End main-header */
+
+/* Start summary */
+.summary{
+    background-color:#F0F5F7 ;
+    padding: 30px 0;
+}
+.summary h2 
+{
+    color:#08526d;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.summary .summary-img .img-me{
+    height: 100%;
+    width: 100%;
+    border: 2px solid #08526D;
+    border-radius: 5px;
+}
+.summary .summary-txt p
+{
+    line-height: 1.7;
+    color: #555;
+    font-size: 20px;
+}
+/* End summary */
+
+/* Start skills */
+.skills
+{
+    padding: 20px 0;
+    margin-top: 10px;
+}
+
+.skills h2 
+{
+    color:#08526d;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.skills .skill-box .skill-icon span
+{
+    background-color:#ed1d24;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 60px;
+}
+.skills .skill-box .skill-icon span svg
+{
+    color:#FFF;
+
+}
+.skills .skill-box .skill-txt h4
+{
+    color: #08526D;
+}
+.skills .skill-box .skill-txt p
+{
+    color: #555;
+}
+/* End skills */
+
+/* Start technology */
+.technology
+{
+    padding: 20px 0;
+    background-color:#F0F5F7;
+
+}
+.technology h2 {
+    color:#08526d;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.technology .technology-box .technology-item span
+{
+    color: #FFF;
+    padding: 4px;
+    text-align: center;
+    width: 100%;
+    margin: 5px 0;
+    display: inline-block;
+}
+/* End technology */
+
+/* Start certificates */
+.certificates
+{
+    padding: 20px 0;
+}
+.certificates h2 {
+    color:#08526d;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.certificates .nav-project{
+    margin-bottom: 40px;
+}
+.certificates .nav-project button
+{
+    display: inline-block;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    padding: 5px 15px;
+    font-size: 14px;
+    line-height: 28px;
+    /*cursor: pointer;*/
+    color: #09536F;
+    border: 1px solid #d3dde1;
+    font-weight: 700;
+    min-width: 80px;
+    background-color: #FFF;
+    outline: 0;
+}
+
+.certificates .nav-project button.active {
+    border: 1px solid #ed1d24;
+    color: #fff;
+    background: #ed1d24;
+}
+.certificates .nav-project button:active {
+    border: 1px solid #d3dde1;
+}
+.certificates .nav-project button:hover {
+    border: 1px solid #ed1d24;
+}
+.certificates .filtr-item 
+{
+    position: relative;
+    margin-bottom: 10px;
+}
+.certificates .filtr-item:hover > .cer-overlay {
+    display: block;
+}
+.certificates .filtr-item .cer-overlay
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+    display: none;
+}
+.certificates .filtr-item .cer-overlay a
+{
+    position: absolute;
+    top: 70%;
+    left: 42%;
+    padding: 5px 15px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #09536F;
+    border: 1px solid #d3dde1;
+    font-weight: 700;
+    background-color: #FFF;
+    width: 100px;
+    text-align: center;
+    z-index: 3;
+}
+.certificates .filtr-item .cer-overlay a:active {
+    border: 1px solid #d3dde1;
+}
+.certificates .filtr-item .cer-overlay a:hover {
+    border: 1px solid #ed1d24;
+}
+
+.certificates .filtr-item img{
+    width: 100%;
+    height: 514px;
+
+}
+
+/* End certificates */
+
+/* Start projects */
+.projects
+{
+    padding: 20px 0;
+    background-color: #F0F5F7;
+}
+.projects h2 {
+    color:#08526d;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.projects .card
+{
+    min-height: 200px;
+    margin: 10px 0;
+}
+.projects .card h5
+{
+    color:#08526d;
+}
+.projects .card .card-text
+{
+    color: #555;
+}
+.projects .card a
+{
+    font-weight: 700;
+    color: #ed1d24;
+}
+
+/* End projects */
+
+
+/* Start achivements */
+.achivements
+{
+    padding: 20px 0;
+}
+.achivements h2 {
+    color:#08526d;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.achivements .card
+{
+    min-height: 176px;
+    margin: 10px 0;
+}
+.achivements .card a
+{
+    font-weight: 700;
+    color: #ed1d24;
+}
+.achivements .card h5
+{
+    color:#08526d;
+}
+.achivements .card .card-text
+{
+    color: #555;
+}
+
+/* End achivements */
+
+/* Start footer */
+.my-footer
+{
+    padding: 20px 0;
+    background-color: #f7f7f7;
+}
+.my-footer h4 {
+    color:#08526d;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.my-footer p {
+    color:#555;
+}
+.my-footer .me h4
+{
+    color:#08526D;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.my-footer .me h4 span
+{
+    color:#ed1d24;
+    font-weight: normal;
+}
+.my-footer .links ul li
+{
+    display: inline-block;
+}
+.my-footer .links ul li svg
+{
+    color: #ccc;
+    margin-right: 7px;
+}
+.my-footer .links ul li a
+{
+    color: #08526D;
+}
+.my-footer .links ul li a:hover
+{
+    color: #ed1d24;
+}
+@media (max-width: 576px) {
+    .me, .links, .contact
+    {
+        text-align: center;
+    }
+  }
+/* End footer */
+
+
+/* Start post-footer */
+
+.post-footer
+{
+    background-color: #08526D;
+    padding-top: 10px;
+}
+.post-footer .copyright
+{
+    padding-bottom: 5px;
+}
+.post-footer .copyright span
+{
+    color: #DDD;
+}
+.post-footer .social ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.post-footer .social ul li svg{
+    font-size: 20px;
+    color: #DDD;
+    cursor: pointer;
+}
+.post-footer .social ul li svg:hover{
+    color: #BBB;
+}
+/* End post-footer */
